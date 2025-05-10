@@ -1,0 +1,24 @@
+    Scan Devices: See all devices connected to your network (IP, MAC, vendor, hostname).
+
+    Cut/Block Devices: Disconnect any device from the network using ARP spoofing.
+
+    Restore Devices: Reconnect devices that were blocked.
+
+    NetLock: Stop new devices from joining your network by blocking unknown MAC addresses.
+
+    Cut All Devices: Disconnect everyone except the trusted ones.
+
+    Log Events: Keeps a history of devices and actions (cut/restore).
+
+    (More features like MAC Cloner, Scheduler, and Bandwidth Monitor can be added later.)
+
+tech:
+    Python 3
+
+    Scapy – to send ARP packets
+
+    PySide6 – for the GUI (user interface)
+
+    SQLite – for logging device activity
+
+    requests – to look up MAC vendor info

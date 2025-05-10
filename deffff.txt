@@ -1,0 +1,14 @@
+project_root/
+├── scanner.py                # Discover devices via ARP
+├── arpspoof.py               # Cut off devices via ARP spoofing
+├── logger.py                 # Log device connections/disconnections
+├── ui/
+│   └── window.py             # GUI with PySide6
+├── utils/
+│   ├── netutils.py           # Utility functions for networking tasks
+│   └── scheduler.py          # Schedule devices' access times
+├── data/
+│   └── database.db           # SQLite database for logs
+├── requirements.txt          # Python dependencies
+├── README.md                 # Setup and usage instructions
+└── main.py                   # Application entry point
